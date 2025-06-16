@@ -6,9 +6,12 @@ CeWL is a Ruby-based command-line tool used by penetration testers to generate c
 
 ---
 
-## 🔍 What Can CeWL Do?
+## 🔍 What can CeWL do?
 
-- Crawl a website to extract words of a certain length
+CeWL can:
+- Crawl a website up to a specified depth
+- Collect words of a minimum length
+- Output to standard output or a file
 - Save results to a file for later use
 - Optionally extract email addresses and document metadata
 - Customize crawling depth, user agent, and output
@@ -19,3 +22,70 @@ CeWL is a Ruby-based command-line tool used by penetration testers to generate c
 
 ```bash
 cewl https://example.com
+
+---
+
+### 4. **Common Options**
+
+```markdown
+## 🧰 Commonly Used Options
+
+| Option         | Description                                      |
+|----------------|--------------------------------------------------|
+| `-d <depth>`   | Set crawl depth (default is 2)                  |
+| `-m <length>`  | Minimum word length to include (default is 6)   |
+| `-w <file>`    | Output wordlist to a file                       |
+| `--email`      | Extract email addresses                         |
+| `--meta`       | Extract metadata (PDF, DOCX, etc.)              |
+| `--ua <agent>` | Set custom User-Agent for crawling              |
+
+---
+
+## 🧪 Examples
+
+### Basic spidering:
+```bash
+cewl https://target.com
+
+### Increase Depth to 3:
+```bash
+cewl -d 3 https://target.com
+
+### Output to a file:
+```bash
+cewl -w wordlist.txt https://target.com
+
+### Extract metadata and emails
+```bash
+cewl --meta --email -w intel.txt https://target.com
+
+### Use a custom user agent:
+```bash
+cewl --ua "Mozilla/5.0" https://target.com
+
+---
+
+### 6. **Live Generator on SploitHQ**
+
+```markdown
+## 🌐 Live CeWL Command Generator
+
+---
+
+Want to generate commands with a simple form?
+
+👉 [Use the CeWL Command Generator on SploitHQ](https://sploithq.com/cewl)
+
+- Select crawl depth, output file, metadata, etc.
+- Instantly get the command and copy it
+- Designed for pentesters and red teamers
+
+## 📄 License
+
+CeWL is distributed under the [GNU General Public License v2.0](https://github.com/digininja/CeWL/blob/master/LICENSE).
+
+## 🔗 Useful Links
+
+- [Official CeWL GitHub](https://github.com/digininja/CeWL)
+- [SploitHQ Tools Homepage](https://sploithq.com/tools)
+- [CeWL Generator on SploitHQ](https://sploithq.com/cewl)
