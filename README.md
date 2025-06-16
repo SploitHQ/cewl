@@ -24,7 +24,7 @@ cewl https://example.com
 
 ---
 
-### 4. **Common Options**
+### **Common Options**
 
 ## 🧰 Commonly Used Options
 
@@ -58,7 +58,7 @@ cewl --ua "Mozilla/5.0" https://target.com
 
 ---
 
-### 6. **Live Generator on SploitHQ**
+### **Live Generator on SploitHQ**
 
 ## 🌐 Live CeWL Command Generator
 
