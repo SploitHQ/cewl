@@ -20,10 +20,8 @@ CeWL can:
 
 ## ⚙️ Basic Usage
 
-```bash
 cewl https://example.com
 
-```markdown
 ---
 
 ### 4. **Common Options**
@@ -44,37 +42,25 @@ cewl https://example.com
 ## 🧪 Examples
 
 ### Basic spidering:
-```bash
 cewl https://target.com
 
-```markdown
 ### Increase Depth to 3:
-```bash
 cewl -d 3 https://target.com
 
-```markdown
 ### Output to a file:
-```bash
 cewl -w wordlist.txt https://target.com
 
-```markdown
 ### Extract metadata and emails
-```bash
 cewl --meta --email -w intel.txt https://target.com
 
-```markdown
 ### Use a custom user agent:
-```bash
 cewl --ua "Mozilla/5.0" https://target.com
 
-```markdown
 ---
 
 ### 6. **Live Generator on SploitHQ**
 
 ## 🌐 Live CeWL Command Generator
-
----
 
 Want to generate commands with a simple form?
 
