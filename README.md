@@ -77,5 +77,4 @@ CeWL is distributed under the [GNU General Public License v2.0](https://github.c
 ## 🔗 Useful Links
 
 - [Official CeWL GitHub](https://github.com/digininja/CeWL)
-- [SploitHQ Tools Homepage](https://sploithq.com/tools)
 - [CeWL Generator on SploitHQ](https://sploithq.com/cewl)
